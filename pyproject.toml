@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tg-bot-project"
+version = "0.1.0"
+description = ""
+authors = ["Гусев Дмитрий <Gysev170296@gmail.com>"]
+readme = "README.md"
+packages = [{include = "tg_bot_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+colorama = "^0.4.6"
+
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
