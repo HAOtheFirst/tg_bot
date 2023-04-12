@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "tg_bot_project"}]
 
 [tool.poetry.dependencies]
-python = "^3.11.1"
+python = "^3.8"
 colorama = "^0.4.6"
 
 
