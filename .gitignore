@@ -3,3 +3,6 @@
 *.lock
 demo.cast
 goals.txt
+Makefile
+poetry.lock
+

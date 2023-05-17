@@ -1,3 +1,6 @@
+run:
+	poetry run
+
 install:
 	poetry install
 
@@ -13,4 +16,4 @@ package-install:
 lint:
 	poetry run flake8 brain_games
 
-.PHONY: install build brain-even brain-cal clint progression
+.PHONY: run install build brain-even brain-cal clint progression
